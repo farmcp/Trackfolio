@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView android:id="@+id/inputTitle" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Edit Stock Information:"
+		android:textSize="20px" android:gravity="center"
+		android:layout_marginLeft="20px" android:layout_marginRight="20px"></TextView>
+	<EditText android:id="@+id/sharePrice" android:layout_width="fill_parent"
+		android:textStyle="italic" android:layout_height="wrap_content"
+		android:inputType="numberDecimal" android:text="Purchase Price"
+		android:textSize="15px" android:layout_marginLeft="20px"
+		android:layout_marginRight="20px"></EditText>
+	<EditText android:id="@+id/sharesPurchased"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="numberDecimal" android:text="Enter Shares Purchased"
+		android:textStyle="italic" android:layout_marginLeft="20px"
+		android:layout_marginRight="20px" android:textSize="15px"></EditText>
+	<Button android:id="@+id/inputButton" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Submit"
+		android:textSize="15px" android:layout_marginLeft="20px"
+		android:layout_marginRight="20px"></Button>
+
+
+	<TextView android:id="@+id/removeTitle" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Remove Stock from Database"
+		android:textSize="20px" android:gravity="center" android:layout_marginTop="50px"></TextView>
+	<Button android:id="@+id/removeButton" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Remove Stock"
+		android:textSize="15px" android:layout_marginLeft="20px"
+		android:layout_marginTop="10px" android:layout_marginRight="20px"></Button>
+</LinearLayout>

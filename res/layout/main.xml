@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/colorWhite">
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/ScrollView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:scrollbars="vertical"
+		android:background="@color/colorWhite">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:background="@color/colorWhite">
+
+
+			<TextView android:id="@+id/portfolioTitle"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="@string/portfolioTitle" android:paddingTop="20px"
+				android:paddingRight="20px" android:paddingLeft="20px"
+				android:paddingBottom="10px" android:textSize="35px"
+				android:textColor="@color/colorBlack" android:gravity="center_horizontal"
+				android:background="@color/colorWhite"></TextView>
+			<TableLayout android:id="@+id/tableLayout1"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:background="@color/colorWhite">
+
+			</TableLayout>
+			<Button android:id="@+id/editButton" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:textSize="15px"
+					android:text="Edit Portfolio" android:layout_marginRight="20px" android:layout_marginTop="10px"
+					android:layout_marginLeft="20px"></Button>
+			<RelativeLayout android:id="@+id/relLayout"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:background="@color/colorWhite">
+				<EditText android:id="@+id/editText1" android:layout_width="200px"
+					android:text="Enter Ticker to Add" android:textSize="15px"
+					android:textStyle="italic" android:textColor="@color/colorLightGrey"
+					android:layout_height="wrap_content" android:layout_alignParentTop="true"
+					android:layout_marginLeft="20px" android:layout_marginRight="10px"
+					android:layout_marginTop="20px"></EditText>
+				<Button android:id="@+id/addButton" android:layout_width="wrap_content"
+					android:layout_toRightOf="@id/editText1"
+					android:layout_alignParentRight="true" android:layout_height="wrap_content"
+					android:text="Add" android:layout_marginRight="20px" android:layout_marginTop="20px"
+					android:textSize="15px"></Button>
+				
+
+			</RelativeLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

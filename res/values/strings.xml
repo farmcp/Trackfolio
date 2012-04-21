@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trackfolio</string>
+    <string name="portfolioTitle"><b><u>Stock Portfolio</u></b></string>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightBlue">#33A1C9</color>
+    <color name="colorLightGrey">#545454</color>
+    <color name="colorRed">#CC0000</color>
+    <color name = "colorGreen">#2F4F2F</color>
+</resources>
